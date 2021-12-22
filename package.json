@@ -1,0 +1,28 @@
+{
+  "name": "@yeliulee/micropython-wasm",
+  "version": "1.0.0",
+  "description": "MicroPython for browser and node, powered by WebAssembly",
+  "scripts": {
+    "minify": "uglifyjs lib/micropython.js -c -o lib/micropython.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeliulee/micropython-wasm.git"
+  },
+  "keywords": [
+    "micropython",
+    "python",
+    "wasm",
+    "webassembly"
+  ],
+  "author": "Sherman Chu <yeliuleet@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yeliulee/micropython-wasm/issues"
+  },
+  "homepage": "https://github.com/yeliulee/micropython-wasm#readme",
+  "node": ">=12.16.1",
+  "devDependencies": {
+    "uglify-js": "^3.14.5"
+  }
+}
